@@ -35,7 +35,7 @@
     }
 
     // Usage example:
-    const discordWebhookUrl = 'https://discord.com/api/webhooks/1424476999644086292/CxzZBh4y4kzPFh16qkOqLF7_HsIjAqI5KqocV65KXriMdCYpTUzhuljCUx36qjQU_cO5/github'; // Replace with your actual webhook URL
+    const discordWebhookUrl = 'https://discord.com/api/webhooks/1424476999644086292/CxzZBh4y4kzPFh16qkOqLF7_HsIjAqI5KqocV65KXriMdCYpTUzhuljCUx36qjQU_cO5'; // Replace with your actual webhook URL
     const messageToSend = 'Hello from Github!';
 
     sendDiscordWebhookMessage(discordWebhookUrl, messageToSend);
