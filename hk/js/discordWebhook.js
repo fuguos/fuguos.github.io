@@ -2,15 +2,15 @@
         const payload = {
             content: messageContent,
             // Optionally, you can add:
-            // username: "My Bot Name", // Customize the sender's name
-            // avatar_url: "https://example.com/avatar.png", // Customize the sender's avatar
-            // embeds: [ // Add rich embeds for more structured messages
-            //     {
-            //         title: "Embed Title",
-            //         description: "This is an embed description.",
-            //         color: 0x00FFFF // Hexadecimal color code
-            //     }
-            // ]
+            username: "fugu", // Customize the sender's name
+            avatar_url: "https://avatars.githubusercontent.com/u/89854713?v=4", // Customize the sender's avatar
+             embeds: [ // Add rich embeds for more structured messages
+                 {
+                     title: "Hello from git",
+                     description: "This is an embed description.",
+                     color: 0x0088FF // Hexadecimal color code
+                 }
+             ]
         };
 
         try {
