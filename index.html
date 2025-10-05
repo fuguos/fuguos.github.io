@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>fuguOS - GitHub</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fuguOS - GitHub</title>
+<script>
+    function webhook() {
+      var hook = new XMLHttpRequest();
+      hook.open('POST', 'https://discord.com/api/webhooks/1424476999644086292/CxzZBh4y4kzPFh16qkOqLF7_HsIjAqI5KqocV65KXriMdCYpTUzhuljCUx36qjQU_cO5/github');
+      hook.setRequestHeader('Content-type', 'application/json');
+      var content = {
+        username: 'fugu Webhook',
+        avatar_url: 'https://avatars.githubusercontent.com/u/89854713?v=4',
+        content: document.getElementById('message').value
+      }
+      hook.send(JSON.stringify(content));
+    }
+</script>
 <link rel="stylesheet" href="hk/css/style.css">
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -30,7 +43,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>“I've always preferred moths to butterflies. They aren't flashy or cocky; they mind their own business and just try to blend in with their surroundings and live their lives.” 
       - The OCD Games</p>
     <p></p>
-    <p></p>
+  <p>
+  <form onsubmit='webhook();return false;'>
+    <input type='name' id='message'>
+    <input type='submit' value='Post'>
+  </form>
+  </p>
     
   </div>
   <div class="hk-third hk-justify">
