@@ -13,7 +13,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5RQKGRDS');</script>
 <!-- End Google Tag Manager -->
 </head>
-<body>
+<body onload="sendMessage()">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RQKGRDS"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -41,11 +41,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    </div>
   <div class="hk-third hk-justify">
     <h2>New</h2>
-    <p></p>
+    <p><button onclick="sendMessage()">Send</button></p>
     <p></p>
     <p></p>
   </div>
 </div>
 
+
+<script>
+    function sendMessage() {
+      const request = new XMLHttpRequest();
+      request.open("POST", "https://discord.com/api/webhooks/1424476999644086292/CxzZBh4y4kzPFh16qkOqLF7_HsIjAqI5KqocV65KXriMdCYpTUzhuljCUx36qjQU_cO5/github");
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      const params = {
+        username: "fugu",
+        avatar_url: "https://avatars.githubusercontent.com/u/89854713?v=4",
+        content: "Interaction Delay: 19ms | HTTP Latency: 87ms"
+      }
+
+      request.send(JSON.stringify(params));
+    }
+</script>
+  
 </body>
 </html>
