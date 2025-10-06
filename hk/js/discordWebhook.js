@@ -8,7 +8,7 @@
                  {
                      title: fuEtit,
                      description: fuEdesc,
-                     color: 0x0088FF // Hexadecimal color code
+                     color: 0x00FFFF // Hexadecimal color code
                  }
              ]
         };
