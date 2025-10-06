@@ -1,4 +1,4 @@
-    async function sendDiscordWebhookMessage(webhookUrl, messageContent) {
+    async function sendDiscordWebhookMessage(webhookUrl, messageContent, fuEtit, fuEdesc) {
         const payload = {
             content: messageContent,
             // Optionally, you can add:
@@ -6,8 +6,8 @@
             avatar_url: "https://avatars.githubusercontent.com/u/89854713?v=4", // Customize the sender's avatar
              embeds: [ // Add rich embeds for more structured messages
                  {
-                     title: "Hello from git",
-                     description: "This is an embed description.",
+                     title: fuEtit,
+                     description: fuEdesc,
                      color: 0x0088FF // Hexadecimal color code
                  }
              ]
@@ -35,7 +35,7 @@
     }
 
     // Usage example:
-    const discordWebhookUrl = 'https://discord.com/api/webhooks/1424476999644086292/CxzZBh4y4kzPFh16qkOqLF7_HsIjAqI5KqocV65KXriMdCYpTUzhuljCUx36qjQU_cO5'; // Replace with your actual webhook URL
-    const messageToSend = 'Hello from Github!';
+    // const discordWebhookUrl = 'https://discord.com/api/webhooks/1424476999644086292/CxzZBh4y4kzPFh16qkOqLF7_HsIjAqI5KqocV65KXriMdCYpTUzhuljCUx36qjQU_cO5'; // Replace with your actual webhook URL
+    // const messageToSend = 'Hello from Github!';
 
-    sendDiscordWebhookMessage(discordWebhookUrl, messageToSend);
+    // sendDiscordWebhookMessage(discordWebhookUrl, messageToSend);
