@@ -16,5 +16,5 @@ const fEt = fugumonths[fugumonth] + " " + fugudate + ", " + fuguyear;
 const fEd = fugudays[fuguday] + ", " + fugumonths[fugumonth] + " " + fugudate + ", " + fuguyear + " | " + fuguhours + ":" + fuguminutes + ":" + fuguseconds + " | " + fugumilliseconds;
 
 const quotGhalib = "محبت کی جنگ میں میرے پاؤں زخمی ہیں، نہ بھاگ سکتا ہوں، نہ ٹھہر سکتا ہوں";
-const messageToSend = "Happy " + fugudays[fuguday] + "! <hr/>" + quotGhalib;
+const messageToSend = "Happy " + fugudays[fuguday] + "!." + quotGhalib;
 sendDiscordWebhookMessage(discordWebhookUrl, messageToSend, fEt, fEd);
