@@ -15,7 +15,7 @@ var fugumilliseconds = fugud.getMilliseconds();
 const fEt = fugumonths[fugumonth] + " " + fugudate + ", " + fuguyear;
 const fEd = fugudays[fuguday] + ", " + fugumonths[fugumonth] + " " + fugudate + ", " + fuguyear + " | " + fuguhours + ":" + fuguminutes + ":" + fuguseconds + " | " + fugumilliseconds;
 
-const quotGhalib = "محبت کی جنگ میں میرے پاؤں زخمی ہیں، نہ بھاگ سکتا ہوں، نہ ٹھہر سکتا ہوں";
+const quotGhalib = "Play with me, please join : 162.19.133.164:5318";
 const messageToSend = "Happy " + fugudays[fuguday] + `!. 
     (مرزا غالب) - ` + quotGhalib;
 sendDiscordWebhookMessage(discordWebhookUrl, messageToSend, fEt, fEd);
