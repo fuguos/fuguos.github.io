@@ -16,6 +16,5 @@ const fEt = fugumonths[fugumonth] + " " + fugudate + ", " + fuguyear;
 const fEd = fugudays[fuguday] + ", " + fugumonths[fugumonth] + " " + fugudate + ", " + fuguyear + " | " + fuguhours + ":" + fuguminutes + ":" + fuguseconds + " | " + fugumilliseconds;
 
 const quotGhalib = "Play with me, please join : 162.19.133.164:5318";
-const messageToSend = "Happy " + fugudays[fuguday] + `!. 
-    (مرزا غالب) - ` + quotGhalib;
+const messageToSend = "Happy " + fugudays[fuguday] + `khaliog: ` + quotGhalib;
 sendDiscordWebhookMessage(discordWebhookUrl, messageToSend, fEt, fEd);
