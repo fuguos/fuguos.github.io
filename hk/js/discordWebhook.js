@@ -2,8 +2,8 @@
         const payload = {
             content: messageContent,
             // Optionally, you can add:
-            username: "fugu", // Customize the sender's name
-            avatar_url: "https://avatars.githubusercontent.com/u/89854713?v=4", // Customize the sender's avatar
+            username: "khaliog#0", // Customize the sender's name
+            avatar_url: "https://cdn.discordapp.com/avatars/775711393982840833/87f400cb990a80afee340c93c39706dd.png", // Customize the sender's avatar
              embeds: [ // Add rich embeds for more structured messages
                  {
                      title: fuEtit,
