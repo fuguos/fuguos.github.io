@@ -1,0 +1,15 @@
+{
+  "id": "io.github.fuguos-stremio",
+  "version": "1.0.1",
+  "name": "fugu stremio",
+  "description": "fugu stremio Add-on",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["movie"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "fugubdix",
+      "name": "BDIX"
+    }
+  ]
+}
