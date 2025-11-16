@@ -2,7 +2,7 @@
   "streams": [
     {
       "availability": 1,
-      "url": "http://127.0.0.1/video/mp4/D.mp4"
+      "url": "http://cdn.net.flix/video/hd.v/BigBuckBunny"
     }
   ]
 }
