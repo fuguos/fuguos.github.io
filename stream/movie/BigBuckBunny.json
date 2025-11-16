@@ -1,8 +1,12 @@
+{"streams":[
 {
-  "streams": [
-    {
-      "availability": 1,
-      "url": "http://cdn.net.flix/video/hd.v/BigBuckBunny"
-    }
-  ]
-}
+"name":"net.flix | SelfHosted SDR N/A ⚡️",
+"description":"📂 Big Buck Bunny.mp4\n💾 123.45 MB\n🌐 English\n🔗 fuguflix",
+"url":"http://cdn.net.flix/video/hd.v/BigBuckBunny.mp4",
+"behaviorHints":{"bingeGroup":"fugu-|-flix-📺 HDRip 🎞️ avc 🎵 AAC-N/A","filename":"Big Buck Bunny.mp4","videoSize":123456789}},
+{
+"name":"net.flix | SelfHosted SDR 720P ⏳",
+"description":"📂 Big Buck Bunny.mp4\n💾 234.56 MB\n🌐 English\n🔗 fuguflix",
+"url":"http://192.168.0.11/video/hd.v/BigBuckBunny.mp4",
+"behaviorHints":{"bingeGroup":"fugu-|-flix-📺 HDRip 🎞️ avc 🎵 AAC-N/A","filename":"Big Buck Bunny.mp4","videoSize":234567890}}
+]}
