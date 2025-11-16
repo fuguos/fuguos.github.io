@@ -1,0 +1,12 @@
+{"streams":[
+{
+"name":"10.1.1.1 | HDR 1080P ",
+"description":"Snatch (2000) 1080p [Dual Audio]\n 3.65 GB\n English + Hindi\n 10.1.1.1",
+"url":"http://10.1.1.1/data/IMDb%20Top-250%20Movies/122.%20Snatch%20%282000%29%201080p%20%5BDual%20Audio%5D/Snatch%20%282000%29%201080p%20BluRay%20x265%20HEVC%20ESub%20%5BDual%20Audio%5D%5BHindi%202.0%2BEnglish%205.1%5D%20-mkvC.mkv",
+"behaviorHints":{"bingeGroup":"fugu-|-flix-?? HDRip ??? avc ?? AAC-N/A","filename":"Snatch (2000) 1080p BluRay x265 HEVC ESub [Dual Audio][Hindi 2.0+English 5.1] -mkvC.mkv","videoSize":3456789012}},
+{
+"name":"net.flix | SelfHosted SDR 720P ?",
+"description":"?? Snatch.2000.1080p.BluRay.x264-[YTS.AM].mp4\n?? 234.56 MB\n?? English\n?? fuguflix",
+"url":"https://cdn4.discoveryftp.net/Movies/English/2000/Snatch/Snatch.2000.1080p.BluRay.x264-[YTS.AM].mp4",
+"behaviorHints":{"bingeGroup":"fugu-|-flix-?? HDRip ??? avc ?? AAC-N/A","filename":"Snatch.2000.1080p.BluRay.x264-[YTS.AM].mp4","videoSize":234567890}}
+]}
