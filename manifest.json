@@ -1,8 +1,8 @@
 {
-  "id": "com.stremio.nowexample",
-  "version": "0.0.1",
-  "name": "Now.sh Example",
-  "description": "Example Add-on",
+  "id": "com.stremio.fuguos",
+  "version": "1.0.1",
+  "name": "fugu bdix",
+  "description": "fugu bdix Add-on",
   "resources": ["catalog", "meta", "stream"],
   "types": ["movie"],
   "catalogs": [
