@@ -34,7 +34,7 @@ npm i -g now
 - Clone Repository:
 
 ```
-git clone --recursive http://github.com/Stremio/stremio-static-addon-example
+git clone --recursive https://github.com/fuguos/fuguos.github.io/
 cd stremio-static-addon-example
 ```
 
