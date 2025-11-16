@@ -1,5 +1,6 @@
 {
   "id": "com.stremio.fuguos",
+  "logo":"https://fuguos.github.io/hk/img/fugu.png",
   "version": "1.0.1",
   "name": "fugu bdix",
   "description": "fugu bdix Add-on",
