@@ -3,10 +3,10 @@
     "id": "BigBuckBunny",
     "name": "Big Buck Bunny",
     "year": 2008,
-    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uVEFQvFMMsg4e6yb03xOfVsDz4o.jpg",
+    "poster": "https://live.metahub.space/poster/small/tt1254207/img",
     "posterShape": "regular",
-    "logo": "https://fanart.tv/fanart/movies/10378/hdmovielogo/big-buck-bunny-5054df8a36bfa.png",
-    "background": "https://image.tmdb.org/t/p/original/aHLST0g8sOE1ixCxRDgM35SKwwp.jpg",
+    "logo": "https://live.metahub.space/logo/medium/tt1254207/img",
+    "background": "https://live.metahub.space/background/medium/tt1254207/img",
     "isFree": true,
     "type": "movie"
   }
